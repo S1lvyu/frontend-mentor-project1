@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/main.min.css" />
+
+    <title>Frontend Mentor | Suite landing page</title>
+  </head>
+  <body>
+    <header class="header">
+      <ul class="header-grid container">
+        <li class="header-grid__item">
+          <img src="/assets/logo.svg" alt="logo" class="header-grid__logo" />
+        </li>
+        <li class="header-grid__item">
+          <button type="button" class="header-grid__button">
+            Request Beta Access
+          </button>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <section class="hero container">
+        <div class="left-container">
+          <img
+            src="/assets/pattern-curved-line-1.svg"
+            alt="curved line"
+            class="left-container__line"
+          />
+          <h1 class="hero__title">
+            A <span class="hero__title--bold"> super solution</span> for your
+            <span class="hero__title--bold"> business.</span>
+          </h1>
+          <p class="hero__text">
+            Our marketing and sales automations help you scale your outreach to
+            get more leads for your company.
+          </p>
+          <button class="hero__button">Request Beta Access</button>
+        </div>
+        <picture>
+          <source
+            media="screen and (max-width: 767px)"
+            srcset="
+              /assets/image-hero-landscape.png    1x,
+              /assets/image-hero-landscape@2x.png 2x
+            "
+          />
+          <source
+            media="screen and (min-width: 768px) "
+            srcset="
+              /assets/image-hero-portrait.png    1x,
+              /assets/image-hero-portrait@2x.png 2x
+            "
+          />
+
+          <img
+            src="/assets/image-hero-portrait.png"
+            alt="mobile phone  "
+            class="hero__photo"
+          />
+        </picture>
+        <ul class="right-container">
+          <li class="right-container__item">
+            <div class="right-container__item--bold">2K+</div>
+            COMPANIES
+          </li>
+          <li class="right-container__item">
+            <div class="right-container__item--bold">8</div>
+            LANGUAGES
+          </li>
+          <li class="right-container__item">
+            <div class="right-container__item--bold">1.2M</div>
+            LEADS
+          </li>
+        </ul>
+      </section>
+      <div class="position-advertiser">
+        <section class="advertiser">
+          <picture>
+            <source
+              media="screen and (max-width: 1439px)"
+              srcset="
+                /assets/image-jeremy-small.png    1x,
+                /assets/image-jeremy-small@2x.png 2x
+              "
+            />
+            <source
+              media="screen and (min-width: 1440px) "
+              srcset="
+                /assets/image-jeremy-large.png    1x,
+                /assets/image-jeremy-large@2x.png 2x
+              "
+            />
+
+            <img
+              src="/assets/image-jeremy-large.png"
+              alt="Jeremy taking notes on his tablet"
+              class="advertiser__image"
+            />
+          </picture>
+          <img
+            src="/assets/pattern-curved-line-2.svg"
+            alt="bigger curved line"
+            class="advertiser__line"
+          />
+          <img
+            src="/assets/pattern-blur.svg"
+            alt="background bluring image"
+            class="advertiser__blur"
+          />
+          <div class="advertiser-container">
+            <h2 class="advertiser-container__title">
+              It just
+              <span class="advertiser-container__title--bold">works.</span>
+            </h2>
+            <p class="advertiser-container__text">
+              “I really like how it is an all-in-one solution that handle many
+              of the tasks that you would normally need separate tools to do the
+              same job. This thing is a miracle worker.”
+            </p>
+            <h3 class="advertiser-container__second-title">JEREMY ROBINSON</h3>
+            <p class="advertiser-container__second-text">CMO, FYLO</p>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer-grid">
+          <li class="footer-grid__item footer-grid__item--position">
+            <img src="/assets/logo.svg" alt="logo" />
+          </li>
+          <li class="footer-grid__item footer-grid__item--text">
+            Copyright - Suite
+          </li>
+          <li class="footer-grid__item">
+            <ul class="social-media">
+              <li class="social-media__item">
+                <a href="#"
+                  ><img src="/assets/icon-facebook.svg" alt="facebook"
+                /></a>
+              </li>
+              <li class="social-media__item">
+                <a href="#"
+                  ><img src="/assets/icon-twitter.svg" alt="twitter"
+                /></a>
+              </li>
+              <li class="social-media__item">
+                <a href="#"
+                  ><img src="/assets/icon-instagram.svg" alt="instagram"
+                /></a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

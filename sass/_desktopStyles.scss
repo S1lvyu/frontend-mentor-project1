@@ -1,0 +1,84 @@
+@media screen and (min-width: 1440px) {
+  main {
+    height: 1070px;
+  }
+  .container {
+    max-width: 1110px;
+  }
+  .hero {
+    display: flex;
+    &__photo {
+      right: 286px;
+    }
+    &__title {
+      font-size: 72px;
+      line-height: 78px;
+    }
+    &__text {
+      font-size: 18px;
+      line-height: 32px;
+    }
+  }
+  .left-container {
+    width: 600px;
+    &__line {
+      width: 287px;
+    }
+  }
+  .right-container {
+    flex-direction: column;
+    padding-left: 320px;
+    &__item {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  .position-advertiser {
+    max-width: 1110px;
+  }
+  .advertiser {
+    height: 545px;
+    width: 1109px;
+    display: flex;
+    justify-content: flex-end;
+    &__line {
+      width: 64px;
+      left: 517px;
+      top: 161px;
+    }
+    &__image {
+      left: 88px;
+      bottom: 0px;
+    }
+    &__blur {
+      bottom: 70px;
+    }
+  }
+  .advertiser-container {
+    width: 350px;
+    margin: 0;
+    padding-right: 125px;
+    padding-top: 88px;
+    &__title {
+      text-align: start;
+    }
+    &__text {
+      text-align: start;
+      padding-left: 0;
+    }
+    &__second-title {
+      text-align: start;
+    }
+    &__second-text {
+      text-align: start;
+    }
+  }
+  .footer {
+    height: 464px;
+  }
+  .footer-grid {
+    padding-top: 360px;
+    width: 1109px;
+  }
+}
